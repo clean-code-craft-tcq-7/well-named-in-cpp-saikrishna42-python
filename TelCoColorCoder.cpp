@@ -34,7 +34,7 @@ ColorPair TelCoColorCoder::GetColorFromPairNumber(int pairNumber) {
     {
         
         int pairNumber=1;
-        for(;pairNumber<25;pairNumber++)
+        for(;pairNumber<26;pairNumber++)
         {
           TelCoColorCoder::ColorPair colorPair =
         TelCoColorCoder::GetColorFromPairNumber(pairNumber);

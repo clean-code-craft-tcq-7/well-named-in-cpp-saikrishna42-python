@@ -23,7 +23,7 @@ void testPairToNumber(
     int expectedPairNumber)
 {
     int get_pairNr_based_major_minor_clr = TelCoColorCoder::GetPairNumberFromColor(major, minor); //Getting the pair number
-    std::cout << "Got pair number " << pairNumber << std::endl;
+    std::cout << "Got pair number " << get_pairNr_based_major_minor_clr << std::endl;
     assert(get_pairNr_based_major_minor_clr == expectedPairNumber);
 }
 

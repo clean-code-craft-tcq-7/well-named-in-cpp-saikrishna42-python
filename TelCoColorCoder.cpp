@@ -24,7 +24,7 @@ int GetPairNumberFromColor(MajorColor major, MinorColor minor)
 void Display_PairNumber_Major_minorColor()
 { 
      int pairNumber=1;
-     for(;pairNumber<26;pairNumber++)
+     for(;pairNumber<Max_PairColor;pairNumber++)
      {
          TelCoColorCoder::ColorPair colorPair = TelCoColorCoder::GetColorFromPairNumber(pairNumber);
          std::cout << pairNumber<<"     "<< colorPair.ToString() << std::endl;

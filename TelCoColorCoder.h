@@ -2,6 +2,7 @@
 #define TELCOCOLORCODER_H
 
 #include <iostream>
+#define Max_PairColor 26;
 
 namespace TelCoColorCoder
 {
